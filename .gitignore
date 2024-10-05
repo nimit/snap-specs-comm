@@ -1,5 +1,5 @@
 # Shipped by Lens Studio
-Cache/**
+Cache/
 PluginsUserPreferences/**
 Support/**
 BackUp/**
@@ -10,7 +10,7 @@ tsconfig.json
 # Shipped by Lens Studio
 
 # Asset Preview Template Project needs to be fast - so we ship cache in this case
-!Cache/**
+# !Cache/**
 
 # No need to save Auxiliary Cache entries
 Cache/Shaders/**
