@@ -1,0 +1,15 @@
+- !<AssetCache/4d123857-786b-f5b9-8f47-6133b1ee5b6a>
+  AssetFiles:
+    3391429c-5c74-4b5c-b9fc-4ad3ba30bda4: 04038d24-4228-4ff1-aaab-098313bd9381/4d123857786bf5b98f476133b1ee5b6a/Data/handMeshPinchTexture.png
+  AssetCurrentFiles:
+    3391429c-5c74-4b5c-b9fc-4ad3ba30bda4: 04038d24-4228-4ff1-aaab-098313bd9381/4d123857786bf5b98f476133b1ee5b6a/Data/handMeshPinchTexture.png
+  Assets:
+    - !<FileTexture/3391429c-5c74-4b5c-b9fc-4ad3ba30bda4>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1024
+        Height: 1024
+  SourceHash: 4d123857786bf5b98f476133b1ee5b6a
+  FileHash: 3aacdf7b3903b1640ed72bf192e45ea9
+  NativePackageItems:
+    []

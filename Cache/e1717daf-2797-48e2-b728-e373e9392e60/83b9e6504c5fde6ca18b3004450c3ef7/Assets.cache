@@ -1,0 +1,15 @@
+- !<AssetCache/83b9e650-4c5f-de6c-a18b-3004450c3ef7>
+  AssetFiles:
+    04d05e20-4f59-494e-9674-a2998424df5c: e1717daf-2797-48e2-b728-e373e9392e60/83b9e6504c5fde6ca18b3004450c3ef7/Data/screen_gradient_UI.png
+  AssetCurrentFiles:
+    {}
+  Assets:
+    - !<FileTexture/04d05e20-4f59-494e-9674-a2998424df5c>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 406
+        Height: 1
+  SourceHash: 83b9e6504c5fde6ca18b3004450c3ef7
+  FileHash: fe116b44f9058208eb5cee9971cc53eb
+  NativePackageItems:
+    []

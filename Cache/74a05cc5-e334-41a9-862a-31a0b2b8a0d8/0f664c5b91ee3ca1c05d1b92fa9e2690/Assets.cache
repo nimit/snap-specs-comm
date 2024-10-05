@@ -1,0 +1,15 @@
+- !<AssetCache/0f664c5b-91ee-3ca1-c05d-1b92fa9e2690>
+  AssetFiles:
+    991b0248-c104-4eb4-98e8-f96e990e2f96: 74a05cc5-e334-41a9-862a-31a0b2b8a0d8/0f664c5b91ee3ca1c05d1b92fa9e2690/Data/ScrollBarRectangle.png
+  AssetCurrentFiles:
+    991b0248-c104-4eb4-98e8-f96e990e2f96: 74a05cc5-e334-41a9-862a-31a0b2b8a0d8/0f664c5b91ee3ca1c05d1b92fa9e2690/Data/ScrollBarRectangle.png
+  Assets:
+    - !<FileTexture/991b0248-c104-4eb4-98e8-f96e990e2f96>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 26
+        Height: 2048
+  SourceHash: 0f664c5b91ee3ca1c05d1b92fa9e2690
+  FileHash: 89e5b86734d021d01df9892d10014c21
+  NativePackageItems:
+    []

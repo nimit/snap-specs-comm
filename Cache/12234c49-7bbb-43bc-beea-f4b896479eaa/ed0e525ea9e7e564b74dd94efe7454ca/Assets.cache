@@ -1,0 +1,12 @@
+- !<AssetCache/ed0e525e-a9e7-e564-b74d-d94efe7454ca>
+  AssetFiles:
+    454bd92c-6cf4-4e04-9deb-2695e1573e24: 12234c49-7bbb-43bc-beea-f4b896479eaa/ed0e525ea9e7e564b74dd94efe7454ca/Data/README.md
+  AssetCurrentFiles:
+    454bd92c-6cf4-4e04-9deb-2695e1573e24: 12234c49-7bbb-43bc-beea-f4b896479eaa/ed0e525ea9e7e564b74dd94efe7454ca/Data/README.md
+  Assets:
+    - !<BinAsset/454bd92c-6cf4-4e04-9deb-2695e1573e24>
+      PackagePath: ""
+  SourceHash: ed0e525ea9e7e564b74dd94efe7454ca
+  FileHash: 8f57e422dc0d93cf094a5c58e087ee3e
+  NativePackageItems:
+    []

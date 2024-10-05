@@ -1,0 +1,15 @@
+- !<AssetCache/2b2954d8-77c7-f1d6-afd9-1cee4d692e48>
+  AssetFiles:
+    365193a7-d7b9-46e1-b921-e23049752542: 321ff80c-ad96-4e36-a1ac-08222f1429e4/2b2954d877c7f1d6afd91cee4d692e48/Data/Glow.png
+  AssetCurrentFiles:
+    365193a7-d7b9-46e1-b921-e23049752542: 321ff80c-ad96-4e36-a1ac-08222f1429e4/2b2954d877c7f1d6afd91cee4d692e48/Data/Glow.png
+  Assets:
+    - !<FileTexture/365193a7-d7b9-46e1-b921-e23049752542>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 512
+        Height: 512
+  SourceHash: 2b2954d877c7f1d6afd91cee4d692e48
+  FileHash: 84589ad52c6a6e67c0d87096b1d6cc81
+  NativePackageItems:
+    []

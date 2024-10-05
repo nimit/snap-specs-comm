@@ -1,0 +1,15 @@
+- !<AssetCache/203c4f27-2468-15f3-e9a8-f723c9621e9f>
+  AssetFiles:
+    c3190a49-cc7a-40ff-b039-8bb6fd9a3947: 13b39990-bf54-4772-a422-b5aaafea63b8/203c4f27246815f3e9a8f723c9621e9f/Data/blurreddarkBG (1).png
+  AssetCurrentFiles:
+    c3190a49-cc7a-40ff-b039-8bb6fd9a3947: 13b39990-bf54-4772-a422-b5aaafea63b8/203c4f27246815f3e9a8f723c9621e9f/Data/Performance/Medium/blurreddarkBG (1).pvr
+  Assets:
+    - !<FileTexture/c3190a49-cc7a-40ff-b039-8bb6fd9a3947>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 690
+        Height: 470
+  SourceHash: 203c4f27246815f3e9a8f723c9621e9f
+  FileHash: beeb786c8f258e4b3dcbd6d92b60e652
+  NativePackageItems:
+    []

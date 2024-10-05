@@ -1,0 +1,15 @@
+- !<AssetCache/9ee9160a-8e29-f620-d076-e835a22a460b>
+  AssetFiles:
+    db1ee848-977d-4cac-b817-80751669e15c: ba92f9fb-0ea1-4a5c-8e71-5c574988ff4d/9ee9160a8e29f620d076e835a22a460b/Data/Rectangle.png
+  AssetCurrentFiles:
+    db1ee848-977d-4cac-b817-80751669e15c: ba92f9fb-0ea1-4a5c-8e71-5c574988ff4d/9ee9160a8e29f620d076e835a22a460b/Data/Rectangle.png
+  Assets:
+    - !<FileTexture/db1ee848-977d-4cac-b817-80751669e15c>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 600
+        Height: 100
+  SourceHash: 9ee9160a8e29f620d076e835a22a460b
+  FileHash: c51837d679b48cc05019d5176adb784b
+  NativePackageItems:
+    []

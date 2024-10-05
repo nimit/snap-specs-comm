@@ -1,0 +1,15 @@
+- !<AssetCache/255df6fa-fab0-69e1-5e79-d5c967edde0b>
+  AssetFiles:
+    0d352896-fcdb-4507-8aa8-8b898c792644: f60be182-4736-4bd2-b8c0-ec1523141b45/255df6fafab069e15e79d5c967edde0b/Data/guy_albedo_512.webp
+  AssetCurrentFiles:
+    0d352896-fcdb-4507-8aa8-8b898c792644: f60be182-4736-4bd2-b8c0-ec1523141b45/255df6fafab069e15e79d5c967edde0b/Data/guy_albedo_512.webp
+  Assets:
+    - !<FileTexture/0d352896-fcdb-4507-8aa8-8b898c792644>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 512
+        Height: 512
+  SourceHash: 255df6fafab069e15e79d5c967edde0b
+  FileHash: 6e1be5cc978743482d9bc8462eed6ac3
+  NativePackageItems:
+    []

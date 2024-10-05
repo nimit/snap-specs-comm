@@ -1,0 +1,15 @@
+- !<AssetCache/f4ee5934-c2f0-d064-3cbc-d65c6d2e5c5a>
+  AssetFiles:
+    d838fe78-9926-4e2c-9d26-cec28dbbad95: 31aa84d9-1009-4006-90b5-d4842e34167d/f4ee5934c2f0d0643cbcd65c6d2e5c5a/Data/SysSettings_simple_idle_5.jpg
+  AssetCurrentFiles:
+    {}
+  Assets:
+    - !<FileTexture/d838fe78-9926-4e2c-9d26-cec28dbbad95>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 512
+        Height: 512
+  SourceHash: f4ee5934c2f0d0643cbcd65c6d2e5c5a
+  FileHash: 8c40c070ea089663557982c08e65d9b6
+  NativePackageItems:
+    []

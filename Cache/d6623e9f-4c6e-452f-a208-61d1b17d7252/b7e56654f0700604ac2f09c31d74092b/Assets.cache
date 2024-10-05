@@ -1,0 +1,18 @@
+- !<AssetCache/b7e56654-f070-0604-ac2f-09c31d74092b>
+  AssetFiles:
+    9de0a9fa-573c-4eab-b305-5f96f8f5cc04: d6623e9f-4c6e-452f-a208-61d1b17d7252/b7e56654f0700604ac2f09c31d74092b/Data/SliderSphereKnob.mesh
+  AssetCurrentFiles:
+    9de0a9fa-573c-4eab-b305-5f96f8f5cc04: d6623e9f-4c6e-452f-a208-61d1b17d7252/b7e56654f0700604ac2f09c31d74092b/Data/SliderSphereKnob.mesh
+  Assets:
+    - !<FileMesh/9de0a9fa-573c-4eab-b305-5f96f8f5cc04>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 960
+        Vertices: 559
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: b7e56654f0700604ac2f09c31d74092b
+  FileHash: ff532bb0618e6eb5f50905da8e0cbf29
+  NativePackageItems:
+    []

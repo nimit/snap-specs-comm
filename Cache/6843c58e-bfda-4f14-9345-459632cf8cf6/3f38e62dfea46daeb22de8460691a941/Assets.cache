@@ -1,0 +1,18 @@
+- !<AssetCache/3f38e62d-fea4-6dae-b22d-e8460691a941>
+  AssetFiles:
+    f703de4f-08c0-46a2-bf15-a1b8783c838b: 6843c58e-bfda-4f14-9345-459632cf8cf6/3f38e62dfea46daeb22de8460691a941/Data/SliderTrack.mesh
+  AssetCurrentFiles:
+    f703de4f-08c0-46a2-bf15-a1b8783c838b: 6843c58e-bfda-4f14-9345-459632cf8cf6/3f38e62dfea46daeb22de8460691a941/Data/SliderTrack.mesh
+  Assets:
+    - !<FileMesh/f703de4f-08c0-46a2-bf15-a1b8783c838b>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 1064
+        Vertices: 559
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: 3f38e62dfea46daeb22de8460691a941
+  FileHash: e054bb797ea0f9c1c86c68351ec75be3
+  NativePackageItems:
+    []

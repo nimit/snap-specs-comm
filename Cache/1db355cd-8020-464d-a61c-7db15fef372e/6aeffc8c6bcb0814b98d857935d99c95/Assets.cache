@@ -1,0 +1,15 @@
+- !<AssetCache/6aeffc8c-6bcb-0814-b98d-857935d99c95>
+  AssetFiles:
+    7c35c1c4-8162-497b-89b1-057abac5801b: 1db355cd-8020-464d-a61c-7db15fef372e/6aeffc8c6bcb0814b98d857935d99c95/Data/frustum_ALBEDO_WEBP.webp
+  AssetCurrentFiles:
+    7c35c1c4-8162-497b-89b1-057abac5801b: 1db355cd-8020-464d-a61c-7db15fef372e/6aeffc8c6bcb0814b98d857935d99c95/Data/frustum_ALBEDO_WEBP.webp
+  Assets:
+    - !<FileTexture/7c35c1c4-8162-497b-89b1-057abac5801b>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 512
+        Height: 512
+  SourceHash: 6aeffc8c6bcb0814b98d857935d99c95
+  FileHash: 012d3b20149c5ae799c0c2514e365bfa
+  NativePackageItems:
+    []
