@@ -281,6 +281,7 @@ function createSession() {
   print("[cl] createSession()");
   var options = createSessionOptions();
   connectedLensModuleToUse.createSession(options);
+  this.createTextForUser(userInfo);
 }
 
 /**
@@ -619,12 +620,19 @@ function _untrackUser(userInfo) {
  * @param {ConnectedLensModule.UserInfo} userInfo
  */
 function _onUserJoinedSession(session, userInfo) {
-  if (_trackUser(userInfo)) {
-    debugLog("user joined session: " + userInfo.displayName);
-    callbacks.onUserJoinedSession.trigger(session, userInfo);
-  } else {
-    debugLog("skipping duplicate user: " + userInfo.displayName);
+  
+  try {
+    if (_trackUser(userInfo)) {
+      debugLog("user joined session: " + userInfo.displayName);
+      callbacks.onUserJoinedSession.trigger(session, userInfo);
+      this.createTextForUser(userInfo);
+    } else {
+      debugLog("skipping duplicate user: " + userInfo.displayName);
+    }
+  } catch (error) {
+    debugLog("Error creating text for user: " + error.message);
   }
+  
 }
 
 /**
@@ -635,6 +643,8 @@ function _onUserJoinedSession(session, userInfo) {
 function _onUserLeftSession(session, userInfo) {
   _untrackUser(userInfo);
   callbacks.onUserLeftSession.trigger(session, userInfo);
+  
+  this.removeTextForUser(userInfo); // This is where the function is called
 }
 
 /**
@@ -707,6 +717,8 @@ function waitAndCreateSessionStore() {
     createSessionStore
   );
 }
+
+
 
 // Colocated Flow
 
@@ -970,6 +982,41 @@ function isLocalUserConnection(userInfo) {
   );
 }
 
+/**
+ * Returns true if the passed in `userInfo` matches the local user and connection
+ * @param {ConnectedLensModule.UserInfo} userInfo
+ * 
+ */
+function createTextForUser(userInfo) {
+  const textObject = script.createScene("User Text");
+  const textComponent = textObject.createComponent("Component.Text");
+
+  textComponent.text = userInfo.displayName;
+  textComponent.color = new vec4(1, 1, 1, 1); // White color
+  textComponent.fontSize = 75;
+
+  // Position the text above the user's head
+  const userPosition = userInfo.getTransform().getWorldPosition(); // Ensure this is correct
+  textObject.getTransform().setWorldPosition(new vec3(userPosition.x, userPosition.y + 1, userPosition.z));
+
+  // Store the text object for this user
+  this.userLabels.set(userInfo.userId, textObject);
+  textObject.parent = script.getSceneObject(); // Set parent to the current scene object
+  print("[nim-log] Created text object for user: " + userInfo.displayName);
+}
+
+/**
+ * Returns true if the passed in `userInfo` matches the local user and connection
+ * @param {ConnectedLensModule.UserInfo} userInfo
+ * 
+ */
+function removeTextForUser(userInfo) {
+  const textObject = this.userLabels.get(userInfo.userId);
+  if (textObject) {
+    textObject.destroy(); // Remove the text object
+    this.userLabels.delete(userInfo.userId); // Remove from tracking
+  }
+}
 /**
  * Returns the host user id, or null
  * @returns {string?}

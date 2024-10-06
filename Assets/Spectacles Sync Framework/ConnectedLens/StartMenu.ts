@@ -1,5 +1,6 @@
 import {PinchButton} from "../SpectaclesInteractionKit/Components/UI/PinchButton/PinchButton"
 import NativeLogger from "../SpectaclesInteractionKit/Utils/NativeLogger"
+// import 'Spectacles Sync Framework/ConnectedLens/SetUsername';
 
 @component
 export class StartMenu extends BaseScriptComponent {
@@ -29,6 +30,29 @@ export class StartMenu extends BaseScriptComponent {
 
   onAwake() {
     this.createEvent("OnStartEvent").bind(this.onStart.bind(this))
+
+    global.sessionController.onSessionCreated.add((session: MultiplayerSession, type: ConnectedLensSessionOptions.SessionCreationType) => {
+      this.nativeLogger.i("[nim-log] Created session")
+      if(session.activeUsersInfo) {
+        this.nativeLogger.i(`[nim-log] Active users length: ${session.activeUserCount} | ${session.activeUsersInfo.length}`) // 0 | 1
+        this.nativeLogger.i(`[nim-log] Name: ${session.activeUsersInfo[0].displayName}`)
+        this.nativeLogger.i(`[nim-log] User ID: ${session.activeUsersInfo[0].userId}`)
+        if(session.activeUserCount > 0) {
+          this.nativeLogger.i(`[nim-log] ${JSON.stringify(session.activeUsersInfo[0])}`)
+        }
+        // changeUsernameText("NIMIT SHAH TEST")
+        // script.createSceneObject("")
+      }
+
+      // Create text object
+    });
+    global.sessionController.onUserJoinedSession.add((session: MultiplayerSession, user: ConnectedLensModule.UserInfo) => {
+      this.nativeLogger.i("[nim-log] Creating text object")
+      // var textObject = script.createScene("User Text");
+      
+      // var textComponent = textObject.createComponent("Component.Text");
+      this.nativeLogger.i("[nim-log] text: " + user.displayName);
+    });
 
     // Re-enable the start menu if the connection fails
     global.sessionController.onConnectionFailed.add(() => {
